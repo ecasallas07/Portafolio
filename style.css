@@ -368,13 +368,13 @@ body .grid {
   animation: rainbow 2.5s linear;
   animation-iteration-count: infinite;
 }
-.t__marker {
+.t__username {
   background-color: rgba(39, 39, 39, 0.993);
   color: #f6f6f6;
 }
-.t__marker:hover {
+/* .t__marker:hover {
   background-color: #a259fe;
-}
+} */
 
 .fa {
   display: inline-table;
@@ -399,11 +399,11 @@ body .grid {
   animation-iteration-count: infinite;
 }
 
-.shake_it:hover {
+/* .shake_it:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
-}
-
+} */
+/*Animation this in comment, new animation with javascript*/
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
@@ -574,3 +574,9 @@ body .grid {
     transform: scale(1, 1) translateY(0);
   }
 }/*# sourceMappingURL=styles.css.map */
+
+.avatar{
+  width: 100px;
+ padding-top: 5px;
+ padding-left: 10px;
+}
