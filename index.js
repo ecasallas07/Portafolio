@@ -3,6 +3,17 @@ const username = document.querySelector('.t__username'); //one element is very e
 const greeting = document.querySelector('.t__hello');
 const textAutomatically = document.getElementById('t__text');
 const aboutme = document.querySelector('.t__aboutme');
+const name_aboutme = document.querySelector('.name_aboutme');
+const carrer_aboutme = document.querySelector('.carrer_aboutme');
+const job_aboutme = document.querySelector('.job_aboutme');
+const apasionate_aboutme = document.querySelector('.apasionate_aboutme');
+
+//Variables
+
+let texxt_carrer = 'Software Engineer ';
+let text_name = 'Esteban';
+let text_job = 'software development ';
+let text_apasionate = 'cybersecurity';
 let text = 'Developer,Cibersecurity and IA';
 let textAboutme ='About me'
 
@@ -42,7 +53,13 @@ function writter() {
 
 }
 
+
 const interval = setInterval(writter, 100);
+
+let indexAbout =0;
+function writterAboutme(){
+    
+}
 
 
 
